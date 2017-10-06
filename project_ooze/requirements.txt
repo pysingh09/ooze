@@ -1,2 +1,5 @@
 Django==1.11.5
 pytz==2017.2
+djangorestframework==3.6.4
+Markdown==2.6.9
+django-filter==1.0.4
