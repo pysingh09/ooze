@@ -70,3 +70,6 @@ class User(AbstractBaseUser):
         return self.first_name
 
 
+class Post(models.Model):
+    title = models.TextField()
+    user = models.ForeignKey(User)
